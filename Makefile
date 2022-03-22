@@ -1,6 +1,7 @@
 VGMSTREAM_SOURCES = $(wildcard vgmstream/src/*.c) $(wildcard vgmstream/src/coding/*.c) \
                     $(wildcard vgmstream/src/layout/*.c) $(wildcard vgmstream/src/meta/*.c) \
-		    vgmstream/ext_libs/clHCA.c
+                    $(wildcard vgmstream/src/util/*.c)
+                    
 DEADBEEF_ROOT = /opt/deadbeef
 
 PKGCONFIG_DEPS = libmpg123 vorbis vorbisfile libavcodec libavformat libavutil
