@@ -6,7 +6,7 @@ DEADBEEF_ROOT = /opt/deadbeef
 
 PKGCONFIG_DEPS = libmpg123 vorbis vorbisfile libavcodec libavformat libavutil
 
-CFLAGS = -fvisibility=hidden `pkg-config $(PKGCONFIG_DEPS) --cflags` -I$(DEADBEEF_ROOT)/include -Ivgmstream/ext_includes -g -O2 -DVGM_USE_FFMPEG -DVGM_USE_VORBIS
+CFLAGS = -fvisibility=hidden `pkg-config $(PKGCONFIG_DEPS) --cflags` -I$(DEADBEEF_ROOT)/include -Ivgmstream/ext_includes -g -O2 -DVGM_USE_MPEG -DVGM_USE_VORBIS
 LIBS = `pkg-config $(PKGCONFIG_DEPS) --libs` -I$(DEADBEEF_ROOT)/lib -fPIC
 
 all: vgm.so

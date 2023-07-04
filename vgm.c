@@ -5,7 +5,7 @@
 #include <string.h>
 #include <deadbeef/deadbeef.h>
 #include "vgmstream/src/vgmstream.h"
-#include "vgmstream/src/plugins.h"
+#include "vgmstream/src/base/plugins.h"
 #include "vgmstream/src/streamfile.h"
 #include "extensions.h"
 
