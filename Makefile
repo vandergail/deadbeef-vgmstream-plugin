@@ -1,6 +1,6 @@
 VGMSTREAM_SOURCES = $(wildcard vgmstream/src/*.c) $(wildcard vgmstream/src/coding/*.c) \
                     $(wildcard vgmstream/src/layout/*.c) $(wildcard vgmstream/src/meta/*.c) \
-                    $(wildcard vgmstream/src/util/*.c)
+                    $(wildcard vgmstream/src/util/*.c) $(wildcard vgmstream/src/base/*.c)
                     
 DEADBEEF_ROOT = /opt/deadbeef
 
